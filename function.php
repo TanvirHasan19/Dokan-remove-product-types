@@ -1,4 +1,4 @@
-// #-- Remove Product Types --#
+/** Remove Product Types */
 function remove_product_types( $product_types ){
     unset( $product_types['variable'] );
 	unset( $product_types['external'] );
